@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+input {
+  border: none;
+}
+.top-f {
+  display: flex;
+  align-items: center;
+  padding: 20px 5px;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: black;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  margin-left: 15px;
+  background-color: rgb(221, 221, 221);
+  border-radius: 5px;
+}
+
+.search input {
+  width: 80%;
+  padding: 8px 15px;
+  background-color: transparent;
+  outline: none;
+}
+
+.search input::placeholder {
+  font-size: 14px;
+}
+
+.bi-search {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.location i {
+  font-size: 25px;
+  margin: 0 15px;
+}
+.addres {
+  display: flex;
+  flex-direction: column;
+}
+
+.addres a:first-child {
+  font-size: 12px;
+  color: black;
+}
+.addres a:last-child {
+  font-size: 13px;
+  color: black;
+  color: rgb(70, 155, 70);
+}
+
+.bi-person,
+.bi-heart,
+.bi-bag,
+.bi-search {
+  color: rgb(70, 155, 70);
+}
+
+.bi-bag,
+.bi-heart {
+  font-size: 23px !important;
+}
+
+hr {
+  margin: 0;
+}
+
+/* @media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1200px;
+  }
+} */

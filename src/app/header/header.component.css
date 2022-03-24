@@ -1,0 +1,16 @@
+.carousel-item {
+  height: 440px;
+}
+
+.carousel-indicators .active {
+  width: 50px;
+  transition: all 0.3s ease;
+}
+
+.carousel-caption {
+  bottom: 3.25rem;
+}
+
+.carousel {
+  top: -16px;
+}
